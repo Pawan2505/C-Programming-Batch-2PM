@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Pawan/C-Programming-Batch-2PM/Incroduction",
-      "program": "c:/Pawan/C-Programming-Batch-2PM/Incroduction/build/Debug/outDebug",
+      "cwd": "c:/Pawan/C-Programming-Batch-2PM/01_Introduction",
+      "program": "c:/Pawan/C-Programming-Batch-2PM/01_Introduction/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

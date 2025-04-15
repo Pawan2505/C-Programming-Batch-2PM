@@ -1,69 +1,57 @@
-List of 32 Keywords in C Programming
+## 📝 **C Programming - Keywords**
 
-Here are 32 keywords in the C programming language:
+### 🔹 What are Keywords?
 
-auto
+- Keywords are **special words** in C language.
+- They have a **fixed meaning**.
+- You **can’t use** them as **variable names**.
+- They are **reserved** by the C language.
 
-break
+---
 
-case
+### 📚 Total = 32 Keywords in C
 
-char
+Here is the full list of 32 keywords:
 
-const
+```
+auto       break      case       char  
+const      continue   default    do  
+double     else       enum       extern  
+float      for        goto       if  
+int        long       register   return  
+short      signed     sizeof     static  
+struct     switch     typedef    union  
+unsigned   void       volatile   while
+```
 
-continue
+---
 
-default
+### 🔍 Note:
 
-do
+- All keywords are in **small letters**.
+- You can’t change their meaning.
+- C compiler understands these words in a **special way**.
 
-double
+---
 
-else
+### Wrong Example:
 
-enum
+```c
+int return = 5;  // Error: 'return' is a keyword
+```
 
-extern
+### Example:
 
-float
+```c
+int marks = 5;   // ✔️ 'marks' is okay, not a keyword
+```
 
-for
+---
 
-goto
+### 💡 Tips:
 
-if
+Group them to remember better:
 
-int
-
-long
-
-register
-
-return
-
-short
-
-signed
-
-sizeof
-
-static
-
-struct
-
-switch
-
-typedef
-
-union
-
-unsigned
-
-void
-
-volatile
-
-while
-
-Note that these are reserved keywords in the C programming language, and cannot be used as variable names or identifiers in your program.
+- **Data Types:** `int`, `char`, `float`, `double`, `void`
+- **Loops & Conditions:** `if`, `else`, `for`, `while`, `switch`, `break`, `continue`
+- **Others:** `return`, `sizeof`, `typedef`, `struct`, etc.

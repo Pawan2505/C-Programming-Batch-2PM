@@ -110,13 +110,74 @@
 //     printf("Total amount : %d", aadarsh);
 // }
 
-#include <stdio.h>
+// #include <stdio.h>
 
-int main()
-{
-    int aadarsh = 50;
+// int main()
+// {
+//     int aadarsh = 50;
 
-    aadarsh -= 10;
+//     aadarsh -= 10;
 
-    printf("Total amount : %d", aadarsh);
+//     printf("Total amount : %d", aadarsh);
+// }
+
+// #include<stdio.h>
+// int main(){
+//     int num1,num2;
+
+//     printf("Enter first number : ");
+//     scanf("%d", &num1);
+//     printf("Enter second number : ");
+//     scanf("%d", &num2);
+
+//     if(num1<num2){
+//         printf("%d is smallest!",num1);
+//     }else{
+//         printf("%d is smallest!",num2);
+//     }
+// }
+
+
+// #include<stdio.h>
+// int main(){
+//     int num;
+//     printf("Enter Number : ");
+//     scanf("%d", &num);
+
+//     if(num==0){
+//         printf("Nutral");
+//     }
+//     else if(num<0){
+//         printf("Negative");
+//     }else{
+//         printf("Positive");
+//     }
+// }
+
+// #include <stdio.h>
+// int main(){
+//     float math,english,science;
+//     printf("Enter Math marks : ");
+//     scanf("%f", &math);
+//     printf("Enter english marks : ");
+//     scanf("%f", &english);
+//     printf("Enter science marks : ");
+//     scanf("%f", &science);
+
+//     float sumMarks = math + english + science;
+
+//     float avg = sumMarks / 3;
+
+//     printf("Average marks of all three subject is : %.2f", avg);
+// }
+
+
+#include<stdio.h>
+
+int main(){
+    int age;
+    printf("Enter Age : ");
+    scanf("%d", &age);
+
+    (age >= 18) ? printf("Your can watch movie") : printf("You only can watch cartoon!");
 }
